@@ -1,0 +1,25 @@
+# Arquivos temporários
+*.tmp
+*.log
+*.cache
+
+# Arquivos de configuração local
+db_local.php
+config_local.php
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos temporários do PHP
+*.php~

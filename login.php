@@ -29,14 +29,32 @@ if($_POST){
 ?>
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8"><title>Login</title></head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Sistema de Manutenção</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
 <body>
-  <h2>Login</h2>
-  <?php if($message) echo '<p style="color:red;">'.htmlentities($message).'</p>'; ?>
-  <form method="post">
-    Usuário: <input type="text" name="usuario"><br>
-    Senha: <input type="password" name="senha"><br>
-    <button type="submit">Entrar</button>
-  </form>
+  <div class="login-container">
+    <div class="login-card">
+      <div style="text-align: center; margin-bottom: 30px;">
+        <img src="imagens/Apresentacao.png" alt="Logo" style="max-width: 200px; height: auto;">
+      </div>
+<h2 class="login-title">Sistema de Manutenção</h2>
+      <?php if($message) echo '<div class="alert alert-danger">'.htmlentities($message).'</div>'; ?>
+      <form method="post">
+        <div class="form-group">
+<label for="usuario">Usuário</label>
+          <input type="text" name="usuario" id="usuario" class="form-control" required>
+        </div>
+        <div class="form-group">
+<label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" class="form-control" required>
+        </div>
+<button type="submit" class="btn" style="width: 100%;">Entrar</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

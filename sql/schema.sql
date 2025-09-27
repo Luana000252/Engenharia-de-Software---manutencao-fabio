@@ -31,8 +31,11 @@ CREATE TABLE IF NOT EXISTS servicos (
   tipo ENUM('Preventiva','Corretiva') DEFAULT 'Corretiva',
   descricao TEXT,
   data_servico DATE,
+  status ENUM('Pendente','Finalizado') DEFAULT 'Pendente',
   cliente_id INT,
   maquina_id INT,
   FOREIGN KEY (cliente_id) REFERENCES clientes(id) ON DELETE SET NULL,
   FOREIGN KEY (maquina_id) REFERENCES maquinas(id) ON DELETE SET NULL
 );
+
+ALTER TABLE servicos ADD COLUMN IF NOT EXISTS status ENUM('Pendente','Finalizado') DEFAULT 'Pendente';
