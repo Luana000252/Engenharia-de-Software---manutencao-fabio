@@ -238,6 +238,3 @@ servicos (id, tipo, descricao, data_servico, status, cliente_id, maquina_id)
 ## 📝 CONCLUSÃO
 
 O Sistema de Gestão de Manutenções atende aos requisitos propostos, oferecendo uma solução completa para gerenciamento de manutenções com interface moderna e funcionalidades robustas. O projeto demonstra aplicação prática dos conceitos de Engenharia de Software, incluindo arquitetura MVC, design patterns e boas práticas de desenvolvimento web.
-
-**Status:** ✅ Concluído e Funcional  
-**Data:** Dezembro 2024
