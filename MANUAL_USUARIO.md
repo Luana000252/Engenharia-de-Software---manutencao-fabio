@@ -1,7 +1,6 @@
 # MANUAL DO USUÁRIO - SISTEMA DE GESTÃO DE MANUTENÇÕES
 
 **Versão:** 1.0  
-**Data:** Dezembro 2024  
 **Desenvolvido para:** Fábio Ildefonso  
 
 ---
@@ -245,7 +244,6 @@ Após o login, você verá a **tela principal** com 4 opções:
 
 ### Informações do Sistema
 - **Versão:** 1.0
-- **Desenvolvedor:** Fábio Ildefonso
 - **Projeto:** Engenharia de Software - ADS
 
 ### Documentação Adicional
