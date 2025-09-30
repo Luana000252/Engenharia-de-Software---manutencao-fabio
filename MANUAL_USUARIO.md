@@ -2,7 +2,7 @@
 
 **Versão:** 1.0  
 **Data:** Dezembro 2024  
-**Desenvolvido por:** Fábio Ildefonso  
+**Desenvolvido para:** Fábio Ildefonso  
 
 ---
 
