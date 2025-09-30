@@ -3,7 +3,7 @@
 **Projeto:** Sistema de Gestão de Manutenções  
 **Disciplina:** Engenharia de Software / Arquitetura de Sistemas  
 **Curso:** ADS  
-**Desenvolvido por:** Fábio Ildefonso  
+**Desenvolvido para:** Fábio Ildefonso  
 
 ---
 
